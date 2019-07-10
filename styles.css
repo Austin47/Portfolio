@@ -1,0 +1,9 @@
+A:hover {
+    color: #dbdbdb;
+    text-decoration: none;
+}
+
+.myLink {
+    color: rgb(116, 116, 116);
+    font-size: 15px;
+}
