@@ -15,7 +15,7 @@ A:hover {
 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
 h2 {
@@ -23,6 +23,10 @@ h2 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
+}
+
+h2.small {
+    font-size: 15px;
 }
 
 h5 {
@@ -35,7 +39,14 @@ p {
     text-align: left;
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
-    line-height: 30px
+    line-height: 30px;
+}
+
+p.smallInfo {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: lighter;
+    color: #818181;
 }
 
 .side-bar {
@@ -96,3 +107,11 @@ p {
 .progress-bar.color-7 {
     background: #a000a7;
 }
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 10px 6px #c1c1c1;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 10px 6px #c1c1c1;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 10px 6px #c1c1c1;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+
