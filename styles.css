@@ -114,4 +114,10 @@ p.smallInfo {
   box-shadow:         3px 3px 10px 6px #c1c1c1;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
+.shadowLight {
+  -webkit-box-shadow: 2px 3px 15px 3px #d6d6d6;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    2px 3px 15px 3px #d6d6d6;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         2px 3px 15px 3px #d6d6d6;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
 
